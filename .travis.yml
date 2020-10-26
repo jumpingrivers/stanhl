@@ -16,6 +16,9 @@ notifications:
     on_success: change
     on_failure: change
 
+r_binary_packages:
+  - rstan
+
 # Generic + Bespoke
 # 1. Only needed for jrNotes
 # 2. Rcpp bugs. On next update of Rcpp CRAN, delete line 2
