@@ -18,6 +18,8 @@ Depends:
     R (>= 3.5.0)
 Imports:
     knitr
+Suggests:
+    rmarkdown
 VignetteBuilder: 
     knitr
 Encoding: UTF-8
