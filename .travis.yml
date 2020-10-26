@@ -18,6 +18,7 @@ notifications:
 
 r_binary_packages:
   - rstan
+  - rmarkdown
 
 # Generic + Bespoke
 # 1. Only needed for jrNotes
