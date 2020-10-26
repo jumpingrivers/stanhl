@@ -29,9 +29,6 @@ apt_packages:
 # 1. Only needed for jrNotes
 # 2. Rcpp bugs. On next update of Rcpp CRAN, delete line 2
 before_install: |
-        # sudo apt-get install python3
-        #  sudo apt-get install python3-pip
-        #sudo apt-get install libgit2-dev
   Rscript -e "library('V8')"
   pip3 install pygments
   Rscript -e 'if (!requireNamespace("Rcpp", quietly = TRUE)) install.packages("Rcpp")'
