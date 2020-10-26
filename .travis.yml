@@ -18,8 +18,6 @@ notifications:
 
 r_binary_packages:
   - rstan
-  - rmarkdown
-  - V8
 
 apt_packages:
   - libnode-dev
@@ -31,7 +29,6 @@ apt_packages:
 # 2. Rcpp bugs. On next update of Rcpp CRAN, delete line 2
 before_install: |
   Rscript -e 'if (!requireNamespace("Rcpp", quietly = TRUE)) install.packages("Rcpp")'
-
   wget https://raw.githubusercontent.com/jr-packages/drat/master/options.R &&
   cat options.R >> ~/.Rprofile.site &&
   rm options.R
