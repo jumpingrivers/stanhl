@@ -19,7 +19,8 @@ Depends:
 Imports:
     knitr
 Suggests:
-    rmarkdown
+    rmarkdown,
+    rstan
 VignetteBuilder: 
     knitr
 Encoding: UTF-8
