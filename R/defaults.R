@@ -40,5 +40,6 @@ new_defaults = function(opts = list()) {
 }
 
 #' @rdname stanhl_styles
+#' @param opts Options for knitr
 #' @export
-stanhl_opts = new_defaults()
+stanhl_opts = new_defaults

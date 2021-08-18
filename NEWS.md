@@ -1,3 +1,6 @@
+# stanhl 1.0.4 _2021-08-18_
+  * Previous calls to library(stanhl) changed opts and the global workspace
+
 # stanhl 1.0.3 _2021-08-18_
   * Internal: No changes. Issues with RSPM
 
